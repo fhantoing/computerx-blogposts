@@ -16,12 +16,12 @@ Ventajas de Centralizar la configuración con GIT:
 Si esta utilizando Java 8 asegúrese se usar en su archivo POM.XML una versión compatible de spring-cloud con Java 8.
 Nota: para Java 17 utilice versiones de spring cloud superiores a 2022.0.x.
 
-´´´
+'''
 <properties>
     <java.version>1.8</java.version>
     <spring-cloud.version>2020.0.3</spring-cloud.version>
 </properties>
-´´´
+'''
 
 Adicione en su archivo POM.XML la dependencia de maven: spring-cloud-config-server.
 
