@@ -16,24 +16,25 @@ Ventajas de Centralizar la configuración con GIT:
 Si esta utilizando Java 8 asegúrese se usar en su archivo POM.XML una versión compatible de spring-cloud con Java 8.
 Nota: para Java 17 utilice versiones de spring cloud superiores a 2022.0.x.
 
-´´´´
+```
 <properties>
     <java.version>1.8</java.version>
     <spring-cloud.version>2020.0.3</spring-cloud.version>
 </properties>
-´´´´
+```
 
 Adicione en su archivo POM.XML la dependencia de maven: spring-cloud-config-server.
 
-´´´
+```
 <dependency>
     <groupId>org.springframework.cloud</groupId>
     <artifactId>spring-cloud-config-server</artifactId>
 </dependency>
-´´´
+```
+
 En su clase Java de configuración utilice la anotación @Configuration y @EnabledConfigServer. 
 
-´´´
+```java
 @Configuration
 @SpringBootApplication
 @EnableConfigServer
@@ -43,11 +44,11 @@ public class ConfiguracionServicioApplication {
 		SpringApplication.run(ConfiguracionServicioApplication.class, args);
 	}
 }
-´´´
+```
 
 Configure su archivo yaml de la siguiente forma:
 
-´´´
+```yaml
 server:
   port: 8080
 spring:
@@ -60,23 +61,23 @@ spring:
           uri: https://github.com/your-domain-github/spring-api-microservices
           search-paths: configuracion-datos
         default-label: main
-´´´
+```
 
 ## Configuración Cliente
 
 Si esta utilizando Java 8 asegúrese se usar en su archivo POM.XML una versión compatible de spring-cloud con Java 8.
 Nota: para Java 17 utilice versiones de spring cloud superiores a 2022.0.x.
 
-´´´
+```xml
 <properties>
     <java.version>1.8</java.version>
     <spring-cloud.version>2020.0.3</spring-cloud.version>
 </properties>
-´´´
+```
 
 Adicione en su archivo POM.XML las dependencias maven: spring-cloud-starter-config y spring-cloud-starter-bootstrap.
 
-´´´
+```xml
 <dependency>
     <groupId>org.springframework.cloud</groupId>
     <artifactId>spring-cloud-starter-config</artifactId>
@@ -85,11 +86,11 @@ Adicione en su archivo POM.XML las dependencias maven: spring-cloud-starter-conf
     <groupId>org.springframework.cloud</groupId>
     <artifactId>spring-cloud-starter-bootstrap</artifactId>
 </dependency>
-´´´
+```
 
 Configure su archivo de propiedades bootstrap.yaml de la siguiente forma:
 
-´´´
+```
 spring:
   application:
     name: your-name-service   
@@ -97,7 +98,7 @@ spring:
     config:
       enabled: true
       uri: http://localhost:8080
-´´´
+```
 
 Cuando se realice el proceso de despliegue del proyecto cliente sucederá lo siguiente: 
 - El proyecto cliente se conectará automáticamente al servidor de configuraciones a través de la URI establecida en el archivo bootstrap.yaml.
@@ -112,10 +113,10 @@ Ejemplo de un archivo de configuración:
 
 your-name-service.yaml:
 
-´´´
+```yaml
 server:
   port: ${server_port:1010}
-´´´
+```
 
 ## Recomendaciones
 
