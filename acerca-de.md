@@ -1,13 +1,19 @@
-# Acerca de
+# Acerca de 
 
-'''
+```javascript
 "Hay más dicha en dar que en recibir - Hechos 20:35 NVI"
-'''
+```
 
-A través de está página pretendemos compartir experiencias, sugerencias y soluciones técnicas alrededor del proceso Desarrollo de Aplicaciones.
-Nos enfocamos en el desarrollo de Servicios y Micro-servicios desarrollados con frameworks como Java, 
-desde el Diseño y Arquitectura hasta el Despliegue y puesta a punto.
-Puedes encontrar también algunos tips sobre gestión de proyectos, herramientas y referencias a documentación sobre investigación en este frente.
+Compartimos sugerencias, soluciones y experiencias del gran mundo del Desarrollo de Aplicaciones.
+Nos enfocamos en documentar experiencias alrededor del desarrollo de Servicios y Micro-servicios basados en frameworks como Java. Desde el Diseño y Arquitectura 
+hasta el Despliegue y puesta a punto en ambientes Productivos.
+
+Puedes encontrar también tips sobre gestión de proyectos, herramientas de monitoreo, testing de aplicaciones y documentación sobre estos temas.
   
-## Contacta
+```javascript
+
+Puede consultar y seguirnos en Github.com -> https://github.com/fhantoing/computerx-blogposts
+o puede escribirnos al correo electrónico fhantoing@gmail.com
+
+```
 
