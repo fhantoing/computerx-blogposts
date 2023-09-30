@@ -126,7 +126,7 @@ Algunas recomendaciones para esta arquitectura de despliegue:
 - Si está utilizando un administrador de despliegues (como Kubernetes) es recomendable que realice toda la configuración a través del archivo del despliegue del contenedor para cada proyecto independiente.
 - Puede validar si su administrador de despliegues puede conectar y centralizar estas configuraciones usando un repositorio GIT.
 
-```c#
+```javascript
 Estas notas son gracias a:
 - Cursos y Tutoriales de Spring Boot realizados en Internet y basados en https://spring.io
 - Experiencias propias de Laboratorio
