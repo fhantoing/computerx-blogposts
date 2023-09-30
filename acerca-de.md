@@ -8,7 +8,7 @@ Compartimos sugerencias, soluciones y experiencias del gran mundo del Desarrollo
 Nos enfocamos en documentar experiencias alrededor del desarrollo de Servicios y Micro-servicios basados en frameworks como Java. Desde el Diseño y Arquitectura 
 hasta el Despliegue y puesta a punto en ambientes Productivos.
 
-Puedes encontrar también tips sobre gestión de proyectos, herramientas de monitoreo, testing de aplicaciones y documentación sobre estos temas.
+Puedes encontrar también tips acerca de gestión de proyectos, herramientas de monitoreo, testing de aplicaciones y documentación sobre estos temas.
   
 ```javascript
 
