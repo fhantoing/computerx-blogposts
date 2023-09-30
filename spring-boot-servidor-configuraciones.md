@@ -128,9 +128,9 @@ Algunas recomendaciones para esta arquitectura de despliegue:
 
 ```c#
 Estas notas son gracias a:
-- Cursos y Tutoriales de SpringBoot realizados en Internet y basados en https://spring.io
+- Cursos y Tutoriales de Spring Boot realizados en Internet y basados en https://spring.io
 - Experiencias propias de Laboratorio
 
 Puede consultar Github -> https://github.com/fhantoing/computerx-blogposts
-Palabras clave: Microservicios, Maven, Java 8, Java 17, Spring Boot, Spring Cloud.
+Palabras clave: Microservicios, Maven, Java, Spring Boot, Spring Cloud.
 ```
