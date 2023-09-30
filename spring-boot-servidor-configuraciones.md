@@ -126,10 +126,11 @@ Algunas recomendaciones para esta arquitectura de despliegue:
 - Si está utilizando un administrador de despliegues (como Kubernetes) es recomendable que realice toda la configuración a través del archivo del despliegue del contenedor para cada proyecto independiente.
 - Puede validar si su administrador de despliegues puede conectar y centralizar estas configuraciones usando un repositorio GIT.
 
-```txt
-Estas Notas son generadas a razón de:
-- Cursos y Tutoriales de SpringBoot en Internet https://spring.io/
+```c#
+Estas notas son gracias a:
+- Cursos y Tutoriales de SpringBoot realizados en Internet y basados en https://spring.io
 - Experiencias propias de Laboratorio
 
-Palabras clave: Microservicios, Java 8, Java 17, Spring Boot, Spring Cloud.
+Puede consultar Github -> https://github.com/fhantoing/computerx-blogposts
+Palabras clave: Microservicios, Maven, Java 8, Java 17, Spring Boot, Spring Cloud.
 ```
