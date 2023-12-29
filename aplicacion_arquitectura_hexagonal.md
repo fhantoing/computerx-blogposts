@@ -1,8 +1,8 @@
-# Aplicación del Concepto de Arquitectura Hexagonal
+# Aplicación del concepto de Arquitectura Hexagonal
 
 ## Arquitectura Hexagonal
 
-La Arquitectura Hexagonal o arquitectura de Puertos y Adaptadores hace parte de las Arquitecturas Limpias en el desarrollo de 
+La Arquitectura Hexagonal o arquitectura de Puertos y Adaptadores hace parte del concepto de Arquitectura Limpia en el desarrollo de 
 Software.
 
 Las Arquitecturas Limpias permiten la separación de las responsabilidades del Sistema mediante capas y reglas claras de comunicación 
