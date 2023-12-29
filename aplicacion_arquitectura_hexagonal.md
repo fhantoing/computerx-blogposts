@@ -75,7 +75,7 @@ public class CarsService implements InputPortCarsUseCase{
   cobertura de pruebas.
 - Debe tener claro cuantás capas y subcapas es necesario implementar dado que no hay restricciones o limites en la organización y dependerá 
   también de la complejidad del proyecto.
-- Puede usar una Arquiectura Limpia para organizar cualquier proyecto de Software independiente de la tecnología de su proyecto. 
+- Puede usar una Arquiectura Limpia para organizar cualquier proyecto de Software independiente de la tecnología en la cual lo está desarrollando. 
 - Elija siempre la simplicidad y el orden.
 
 ```javascript
