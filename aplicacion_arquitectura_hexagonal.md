@@ -2,14 +2,14 @@
 
 ## Arquitectura Hexagonal
 
-La Arquitectura Hexagonal o arquitectura de Puertos y Adaptadores hace parte de lo que se denomina Arquitecturas Limpias en el desarrollo de 
+La Arquitectura Hexagonal o arquitectura de Puertos y Adaptadores hace parte de las Arquitecturas Limpias en el desarrollo de 
 Software.
 
 Las Arquitecturas Limpias permiten la separación de las responsabilidades del Sistema mediante capas y reglas claras de comunicación 
 (dependencias) entre ellas.
 
-El desarrollo de un sistema basado en una Arquitectura Limpia tendrá menos grado acomplamiento del Dominio de la aplicación con elementos 
-externos y eso permitirá además:
+El desarrollo de un sistema basado en una Arquitectura Limpia tendrá menos grado de acomplamiento del Dominio de la aplicación con elementos 
+externos y permitirá además:
 
 - Independencia de la Interfaz gráfica de Usuario (UI)
 - Independencia de la Base de datos
