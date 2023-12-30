@@ -4,16 +4,18 @@
 "Hay más dicha en dar que en recibir - Hechos 20:35 NVI"
 ```
 
-Compartimos sugerencias, soluciones y experiencias del gran mundo del Desarrollo de Aplicaciones.
-Nos enfocamos en documentar experiencias alrededor del desarrollo de Servicios y Micro-servicios basados en frameworks como Java. Desde el Diseño y Arquitectura 
-hasta el Despliegue y puesta a punto en ambientes Productivos.
-
-Puedes encontrar también tips acerca de gestión de proyectos, herramientas de monitoreo, testing de aplicaciones y documentación sobre estos temas.
+El objetivo de este Blog es Compartir sugerencias, soluciones y especialmente experiencias relacionadas con el gran mundo del Desarrollo de 
+Aplicaciones (en Back) y su Gestión TI. Desde el Diseño y Arquitectura hasta el Despliegue y puesta a punto en diversos ambientes. 
+También compartir tips acerca de la Gestión de proyectos, herramientas de monitoreo, testing y artículos relacionados sobre estos temas.
   
 ```javascript
 
-Puede consultar y seguirnos en Github.com -> https://github.com/fhantoing/computerx-blogposts
-o puede escribirnos al correo electrónico fhantoing@gmail.com
+Puede consultar y seguir la cuenta principal del blog en Github.com: https://github.com/fhantoing/computerx-blogposts
+Para Preguntas y comentarios puede escribir al correo electrónico: fhantoing@gmail.com o a la cuenta principal de Linkedin: https://www.linkedin.com/in/fhantoing/
+
+Puede encontrar otro tipo de publicaciones del autor en Threads: https://www.threads.net/@fhantoing
+
+¡Bendiciones!
 
 ```
 
