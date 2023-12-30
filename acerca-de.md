@@ -12,7 +12,7 @@ También compartir tips acerca de la Gestión de proyectos, herramientas de moni
 
 Puede consultar y seguir la cuenta principal del blog en Github.com: https://github.com/fhantoing/computerx-blogposts
 Para Preguntas y comentarios puede escribir al correo electrónico: fhantoing@gmail.com o a la cuenta principal del autor en
-Linkedin: https://www.linkedin.com/in/fhantoing/
+Linkedin: https://www.linkedin.com/in/fhantoing
 
 Puede encontrar otras publicaciones del autor en Threads: https://www.threads.net/@fhantoing
 
