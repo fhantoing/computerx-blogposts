@@ -57,6 +57,20 @@ infraestructure\ # Casos de Uso para integración con BD, WS, Servicios HTTP
 Ejemplo de implementación de un Caso de Uso de Consulta a BD:
 
 ```java
+#Interface Obtener datos DB. Puerto Entrada.
+@Service
+public interface InputPortCarsUseCase {
+    List<Car> getListCarById(Integer id);
+}
+
+#Interface Obtener datos DB. Puerto Salida.
+@Service
+public interface CarsOutputPort {
+    List<Car> getListCarById(Integer id);
+}
+
+#Implementación caso de Uso Obtener datos BD. Aplicación
+@Component
 public class CarsService implements InputPortCarsUseCase{
 
     @Autowired
@@ -64,7 +78,7 @@ public class CarsService implements InputPortCarsUseCase{
 
     @Override
     public List<Car> getListCarById(Integer id){
-        return carsOutPort.getListCarById(id);
+        return carsOutputPort.getListCarById(id);
     }
 }
 ```
